@@ -49,7 +49,7 @@ export default function NovoCliente(){
           <div className= "content">
             <section className= "cliente-form">
               <section className="logo-carrinho-compras">
-                <img src= {CarrinhoCompras} alt= "carrinho de compras" style={ {width: "100%"} }/>
+                <img src= {CarrinhoCompras} alt= "carrinho de compras" style={ { width: "100%" } }/>
 
                 <Link to= "/"> 
                 <FiArrowLeftCircle size= {30} color= "#e02041"/>
@@ -67,7 +67,7 @@ export default function NovoCliente(){
             placeholder= "Sobrenome"
              value= {sobrenome}
              onChange= {e => setSobrenome(e.target.value)}
-             style= { {width: 220} }
+             style= { { width: "51%" } }
              />
             <input
             placeholder= "CPF"
@@ -79,41 +79,41 @@ export default function NovoCliente(){
            placeholder= "Sexo"
              value= {sexo}
              onChange= {e => setSexo(e.target.value)}
-             style={ {width: 100} }
+             style={ { width: "22%" } }
              />
              <input
            placeholder= "UF"
              value= {uf}
              onChange= {e => setUf(e.target.value)}
-             style={ {width: 95} }
+             style={ { width: "23%" } }
              />
                <input
            placeholder= "Endereço"
              value= {endereco}
              onChange= {e => setEndereco(e.target.value)}
-             style={ {width:425} }
+             style={ { width: "95%" } }
              /> 
               <input
            placeholder= "Cidade"
              value= {cidade}
              onChange= {e => setCidade(e.target.value)}
-             style= { {width: 180} }
+             style= { { width: "38%" } }
              /> 
              <input
            placeholder= "Celular"
              value= {celular}
              onChange= {e => setCelular(e.target.value)}
-             style= { {width:220}}
+             style= { { width: "52%" }}
              />
               <input
            placeholder= "E-mail"
              value= {email}
              type= "email"
              onChange= {e => setEmail(e.target.value)}
-             style= { {width: 425}}
+             style= { { width: "95%" } }
              />
 
-       <button className="button" style={ { width:425} }>
+       <button className="button" style={ { width: "95%" } }>
          Cadastrar
        </button>
               </form>

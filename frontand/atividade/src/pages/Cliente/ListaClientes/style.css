@@ -1,0 +1,40 @@
+.lista-clientes-conteiner{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+
+.content-lista{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 180px;
+    width: 80%;
+    background-color:#ecebec;
+    box-shadow: 0 0 10px 6px #afa7a7;
+    border-radius: 8px;
+    height: 600px;
+    padding: 20px 0;
+}
+
+.lista-clientes{
+    margin: 35px 5%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+.lista-clientes table{
+    width: 100%;
+    text-align: center;
+}
+
+#button-delete, #button-update{
+   border:none; 
+   cursor: pointer;
+}
+
+#button-delete:hover, #button-update:hover{
+    filter: saturate(0.6)
+}

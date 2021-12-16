@@ -14,7 +14,7 @@ module.exports = {
         },
 
         async listar(request, response) {
-            const { id } = request.params                                                                                                                                                                                                                                                                               
+            const id = request.params                                                                                                                                                                                                                                                                               
             const resultadoBusca = await conexao("clientes").select('*');
             return response.json(resultadoBusca);
         },
@@ -28,8 +28,8 @@ module.exports = {
         async atualizar(request, response) {
             const { id } = request.params
             const clienteAtualizar = await conexao("clientes").select('*').where("id",id);
-            console.log(clienteAtualizar)
-          if(!(clienteAtualizar)) {
+            console.log(Object.keys(clienteAtualizar))
+          if(!(Object.keys(clienteAtualizar).length ===0)){
             const {
                 nome,
                 sobrenome,
