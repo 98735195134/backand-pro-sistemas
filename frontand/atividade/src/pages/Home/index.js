@@ -1,13 +1,15 @@
 import React from "react";
-
-import Logo from "../../assets/img/logo-marca.jpg";
+import Logo from "../../assets/img/logo-marca-loja.png";
+import Barra from "../../components/Barra";
 
 import "./style.css"
 
-export default function Home(){
-
+export default function Home() {
     return(
         <div className="home-conteiner">
+         <div className="menu">
+          <Barra />
+           </div>
                 <section className="titulo-app">
                 <h1>Software de Gestão Comercial</h1>
                 </section>

@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from "react";
 import {FiTrash2, FiRotateCcw} from "react-icons/fi";
 import {useNavigate} from "react-router-dom";
+import Barra from "../../../components/Barra";
 
 import "./style.css";
 
@@ -33,6 +34,9 @@ export default function ListaClientes(){
 
     return(
         <div className= "lista-clientes-conteiner">
+            <div className= "menu">
+                <Barra/>
+            </div>
     <div className= "content-lista"> 
     <div className= "titulo-lista-clientes">
         <h1>Relatório de clientes</h1>

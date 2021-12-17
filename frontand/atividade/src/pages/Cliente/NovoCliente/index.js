@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import api from "../../../services/api";
 import {FiArrowLeftCircle} from "react-icons/fi";
 import { Link, useNavigate } from "react-router-dom";
+import Barra from "../../../components/Barra";
 
 import "./style.css"
 
@@ -46,6 +47,9 @@ export default function NovoCliente(){
 
     return(
         <div className="novo-cliente-conteiner">
+          <div className= "menu">
+            <Barra/>
+          </div>
           <div className= "content">
             <section className= "cliente-form">
               <section className="logo-carrinho-compras">
