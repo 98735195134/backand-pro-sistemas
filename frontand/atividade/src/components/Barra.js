@@ -78,6 +78,32 @@ export default function Barra(){
       Lista
     </Link>
   </Dropdown>
+  <Dropdown
+    id="Dropdown_16"
+    options={{
+      alignment: 'left',
+      autoTrigger: true,
+      closeOnClick: true,
+      constrainWidth: true,
+      container: null,
+      coverTrigger: true,
+      hover: false,
+      inDuration: 150,
+      onCloseEnd: null,
+      onCloseStart: null,
+      onOpenEnd: null,
+      onOpenStart: null,
+      outDuration: 250
+    }}
+    trigger={<a href="#!">Venda{' '}<Icon right>arrow_drop_down</Icon></a>}
+  >
+    <Link to="/venda/cadastro">
+      Cadastro
+    </Link>
+    <Link to="/venda/lista">
+      Lista
+    </Link>
+  </Dropdown>
 </Navbar>
      </>
  </div>

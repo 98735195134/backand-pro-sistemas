@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../../assets/img/logo-marca-loja.png";
+import Logo from "../../assets/img/logo-marca-loja.jpg";
 import Barra from "../../components/Barra";
 
 import "./style.css"

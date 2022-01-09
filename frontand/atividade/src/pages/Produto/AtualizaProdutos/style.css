@@ -1,4 +1,4 @@
-.atualizar-cliente-conteiner{
+.atualizar-produto-conteiner{
     display: flex;
     flex: 1;
     justify-content: center;
@@ -12,7 +12,7 @@
     margin-top: 8px;
 }
 
-.form-atualiza-cliente h1{
+.form-atualiza-produto h1{
     font-size: 16px;
     line-height: 30px;
     letter-spacing: 3px;
@@ -21,12 +21,12 @@
     margin-bottom: 10px;
 }
 
-.cliente-form-atualizar{
+.produto-form-atualizar{
     margin: 0 10% 0 10%;
     display: flex;
     padding: 15% 5%;
     background-color: #ecebec;
-    height: 800px;
+    height: 700px;
     box-shadow: 0 0 10px 6px #afa7a7;
     border-radius: 8px;
     flex-direction: row;
@@ -34,7 +34,7 @@
     max-width: 960px; 
 }
 
-.cliente-form .logo-carrinho-compras{
+.produto-form .logo-carrinho-compras{
     margin-top: 10px;
     display: flex;
     flex-direction: column;
@@ -42,11 +42,11 @@
     justify-content: space-evenly;
 }
 
-.cliente-form .form-cadastro-cliente{
+.produto-form .form-cadastro-produto{
     margin-top: 50px;
 }
 
-.cliente-form input{
+.produto-form input{
     font-family: "open-sans", sans-serif;
     margin-right: 5%;
     margin-bottom: 10px;
@@ -63,7 +63,7 @@
     justify-content: space-evenly;
 }
 
-.form-cadastro-cliente{
+.form-cadastro-produto{
     width: 70%;
     display: flex;
     flex-direction: column;
