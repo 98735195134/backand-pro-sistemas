@@ -3,6 +3,8 @@ import api from "../../../services/api";
 import {FiArrowLeftCircle} from "react-icons/fi";
 import { Link, useNavigate } from "react-router-dom";
 import Barra from "../../../components/Barra";
+import { TextInput } from "react-materialize";
+
 
 import "./style.css"
 
@@ -62,59 +64,70 @@ export default function NovoCliente(){
                 <section className= "form-cadastro-cliente">
                   <h1>Cadastro de Clientes</h1>
               <form onSubmit={executarCadastro}> 
-             <input
-             placeholder= "Nome"
+             <TextInput
+             icon= "person"
+             id="TextInput-49"
+             label= "Nome"
              value= {nome}
              onChange= {e => setNome(e.target.value)}
              />
-            <input
-            placeholder= "Sobrenome"
+            <TextInput
+            icon= "person"
+            id="TextInput-49"
+            label= "Sobrenome"
              value= {sobrenome}
              onChange= {e => setSobrenome(e.target.value)}
-             style= { { width: "51%" } }
              />
-            <input
-            placeholder= "CPF"
+            <TextInput
+            icon= "person"
+            id="TextInput-49"
+            label= "CPF"
              nome="cpf"
              value= {cpf}
              onChange= {e => setCpf(e.target.value)}
              />
-           <input
-           placeholder= "Sexo"
-             value= {sexo}
-             onChange= {e => setSexo(e.target.value)}
-             style={ { width: "22%" } }
+           <TextInput
+           icon= "person"
+           id="TextInput-49"
+           label= "Sexo"
+           value= {sexo}
+           onChange= {e => setSexo(e.target.value)}
              />
-             <input
-           placeholder= "UF"
+             <TextInput
+             icon= "person"
+             id="TextInput-49"
+             label= "UF"
              value= {uf}
              onChange= {e => setUf(e.target.value)}
-             style={ { width: "23%" } }
              />
-               <input
-           placeholder= "Endereço"
+               <TextInput
+               icon= "person"
+               id="TextInput-49"
+              label= "Endereço"
              value= {endereco}
              onChange= {e => setEndereco(e.target.value)}
-             style={ { width: "95%" } }
              /> 
-              <input
-           placeholder= "Cidade"
+              <TextInput
+              icon="person"
+              id="TextInput-49"
+              label= "Cidade"
              value= {cidade}
              onChange= {e => setCidade(e.target.value)}
-             style= { { width: "38%" } }
              /> 
-             <input
-           placeholder= "Celular"
+             <TextInput
+             icon= "person"
+             id="TextInput-49"
+             label= "Celular"
              value= {celular}
              onChange= {e => setCelular(e.target.value)}
-             style= { { width: "52%" }}
              />
-              <input
-           placeholder= "E-mail"
-             value= {email}
-             type= "email"
-             onChange= {e => setEmail(e.target.value)}
-             style= { { width: "95%" } }
+              <TextInput
+              icon= "person"
+              id="TextInput-49"
+              label= "E-mail"
+              value= {email}
+              type= "Email"
+              onChange= {e => setEmail(e.target.value)}
              />
 
        <button className="button" style={ { width: "95%" } }>

@@ -1,0 +1,46 @@
+.lista-produtos-conteiner{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-lista-produtos{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    width: 90%;
+    background-color:#ecebec;
+    box-shadow: 0 0 10px 6px #afa7a7;
+    border-radius: 8px;
+    height: 600px;
+    padding: 20px 0;
+}
+ 
+#root > div > div.content-lista-produtos > div .titulo-lista-produtos > h1{
+    font-size: 30px;
+    color: rgb(97, 18, 18);
+}
+
+.lista-produtos{
+    margin: 35px 5%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+.lista-produtos table{
+    width: 100%;
+    text-align: center;
+}
+
+#button-delete, #button-update{
+   border:none; 
+   cursor: pointer;
+}
+
+#button-delete:hover, #button-update:hover{
+    filter: saturate(0.6);
+}
